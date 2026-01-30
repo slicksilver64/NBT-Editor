@@ -7,7 +7,7 @@ from nbtlib.tag import Compound, List
 class NBTEditor:
     def __init__(self, root, file_path=None):
         self.root = root
-        self.root.title("Simple NBT Editor")
+        self.root.title("NBT Editor")
 
         self.nbt = None
         self.file_path = None
